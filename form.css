@@ -1,0 +1,55 @@
+body {
+    font-family: arial, helvetica;
+}
+
+form fieldset {
+    display: inline-block;
+}
+
+.radioButton {
+    float: none;
+    display: inline;
+    margin-right: 0.1em;
+    width: 2em;
+}
+
+form label {
+    width: 8em;
+    margin-right: 1em;
+    float: left;
+    text-align: right;
+    display: block;
+}
+
+form input {
+    width: 15em;
+}
+
+#submit {
+    margin-top: 2em;
+    float: right;
+}
+
+.errorClass {
+    background-color: #cc6666;
+}
+
+#errorDiv {
+    color: red;
+}
+
+.errorFeedback {
+    visibility: hidden;
+}
+
+.phoneTypeError {
+    margin-left: 1.2em;
+    padding: 0.1em;
+    background-color: #cc6666;
+}
+
+#homePageMainTitle {
+    text-align: center;
+    font-size: 150%;
+    color: dodgerblue;
+}
